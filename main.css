@@ -3,17 +3,29 @@
   height: 100vh;
   padding: 10% 45%;
 }
+.co/*ntainer {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}*/
+
 .container {
-  width: 100%;
+    width: 100%;
 }
+
 .eye {
+	top:300px;
+	left: 10px;
   position: relative;
   display: inline-block;
   border-radius: 50%;
   height: 30px;
   width: 30px;
-  background: #FFFFFF;
+  background: #CCC;
+	margin-right: 200px;
+
 }
+
 .eye:after { /*pupil*/
   position: absolute;
   bottom: 17px;
@@ -24,3 +36,12 @@
   border-radius: 50%;
   content: " ";
 }
+
+.tuan {
+  /* Set up proportionate scaling */
+	background-image:    url("bg.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
